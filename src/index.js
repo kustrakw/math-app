@@ -39,7 +39,6 @@ class Game extends React.Component {
 
         this.handleSubmit = this.handleSubmit.bind(this);
         this.handleChange = this.handleChange.bind(this);
-        this.handleSelect = this.handleSelect.bind(this);
     }
 
     handleSubmit(event) {
@@ -55,7 +54,11 @@ class Game extends React.Component {
             }, 1000);
         }
         else {
-            this.setState({outcome: 'Incorrect.  Please try again.'})
+            const input = this.state.input;
+            this.setState({
+                outcome: input + ' is incorrect.  Please try again.',
+                input: ''
+            });
         }
         event.preventDefault();
     }
@@ -63,12 +66,6 @@ class Game extends React.Component {
     handleChange(event) {
         this.setState({
             input: event.target.value,
-        });
-    }
-
-    handleSelect(event) {
-        this.setState({
-            outcome: null
         });
     }
 
@@ -97,7 +94,6 @@ class Game extends React.Component {
                         style={{fontSize:'22px', width:'45px'}}
                         autoFocus={true}
                         onChange={this.handleChange}
-                        onSelect={this.handleSelect}
                     />
                 </label>
                 <p>{this.state.outcome}</p>
