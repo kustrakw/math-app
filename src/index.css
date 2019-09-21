@@ -4,13 +4,11 @@ body {
 }
 
 .number {
-  margin-left: 33px;
   margin-bottom: 1px;
   margin-top: 1px;
 }
 
 .operator {
-  margin-left: 10px;
   margin-bottom: 0px;
   margin-top: 1px;
 }
