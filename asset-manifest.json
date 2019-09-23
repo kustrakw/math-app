@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/math-app/static/css/main.28ef34a0.chunk.css",
+    "main.js": "/math-app/static/js/main.f3b47491.chunk.js",
+    "main.js.map": "/math-app/static/js/main.f3b47491.chunk.js.map",
+    "runtime~main.js": "/math-app/static/js/runtime~main.6bd5bbbe.js",
+    "runtime~main.js.map": "/math-app/static/js/runtime~main.6bd5bbbe.js.map",
+    "static/css/2.1ad9c816.chunk.css": "/math-app/static/css/2.1ad9c816.chunk.css",
+    "static/js/2.b3056512.chunk.js": "/math-app/static/js/2.b3056512.chunk.js",
+    "static/js/2.b3056512.chunk.js.map": "/math-app/static/js/2.b3056512.chunk.js.map",
+    "index.html": "/math-app/index.html",
+    "precache-manifest.e29fddfa2200c57f5c483fb11765d973.js": "/math-app/precache-manifest.e29fddfa2200c57f5c483fb11765d973.js",
+    "service-worker.js": "/math-app/service-worker.js",
+    "static/css/2.1ad9c816.chunk.css.map": "/math-app/static/css/2.1ad9c816.chunk.css.map",
+    "static/css/main.28ef34a0.chunk.css.map": "/math-app/static/css/main.28ef34a0.chunk.css.map"
+  }
+}
